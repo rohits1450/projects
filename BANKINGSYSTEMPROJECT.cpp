@@ -180,7 +180,7 @@ Bank::Bank() {
     ifstream infile;
     infile.open("Bank.data");
     if (!infile) {
-        // cout << "Error in Opening! File Not Found!!" << endl;
+       
         return;
     }
     while (!infile.eof()) {
